@@ -18,6 +18,10 @@ group = 'org.springframework.boot'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = 1.8
 
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
+
 repositories {
 	mavenCentral()
 }
